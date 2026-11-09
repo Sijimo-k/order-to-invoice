@@ -1,0 +1,7 @@
+node_modules/
+SPEC.md
+.clasp.json
+.clasprc.json
+src/src/
+src/.claspignore
+.claspignore

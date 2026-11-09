@@ -1,0 +1,13 @@
+{
+  "name": "order-to-invoice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Google Apps Script: import shop orders into Google Sheets, create PDF invoices from a Docs template, email them and track payments.",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

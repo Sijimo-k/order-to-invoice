@@ -1,0 +1,508 @@
+{
+  "orders": [
+    {
+      "id": 7001001,
+      "name": "#1001",
+      "order_number": 1001,
+      "created_at": "2026-10-04T09:12:00-07:00",
+      "email": "maya.lin@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "40.30",
+      "total_discounts": "0.00",
+      "total_tax": "3.22",
+      "total_price": "43.52",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9000,
+        "first_name": "Maya",
+        "last_name": "Lin",
+        "email": "maya.lin@example.com"
+      },
+      "billing_address": {
+        "name": "Maya Lin",
+        "address1": "100 Demo Street",
+        "city": "Portland",
+        "province_code": "OR",
+        "zip": "97201",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10010,
+          "sku": "TEA-SEN-50",
+          "title": "Morning Sencha",
+          "variant_title": "50 g",
+          "quantity": 2,
+          "price": "12.50"
+        },
+        {
+          "id": 10011,
+          "sku": "TEA-OOL-50",
+          "title": "High Mountain Oolong",
+          "variant_title": "50 g",
+          "quantity": 1,
+          "price": "15.30"
+        }
+      ]
+    },
+    {
+      "id": 7001002,
+      "name": "#1002",
+      "order_number": 1002,
+      "created_at": "2026-10-11T14:40:00-07:00",
+      "email": "daniel.okafor@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "48.60",
+      "total_discounts": "5.00",
+      "total_tax": "3.89",
+      "total_price": "52.49",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9001,
+        "first_name": "Daniel",
+        "last_name": "Okafor",
+        "email": "daniel.okafor@example.com"
+      },
+      "billing_address": {
+        "name": "Daniel Okafor",
+        "address1": "107 Demo Street",
+        "city": "Austin",
+        "province_code": "TX",
+        "zip": "73301",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10020,
+          "sku": "WARE-KTL-1",
+          "title": "Glass Kettle",
+          "variant_title": null,
+          "quantity": 1,
+          "price": "34.00"
+        },
+        {
+          "id": 10021,
+          "sku": "TEA-EGR-100",
+          "title": "Harbor Earl Grey",
+          "variant_title": "100 g",
+          "quantity": 2,
+          "price": "9.80"
+        }
+      ]
+    },
+    {
+      "id": 7001003,
+      "name": "#1003",
+      "order_number": 1003,
+      "created_at": "2026-10-19T08:05:00-07:00",
+      "email": "sofia.marquez@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "16.00",
+      "total_discounts": "0.00",
+      "total_tax": "1.28",
+      "total_price": "23.28",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9002,
+        "first_name": "Sofia",
+        "last_name": "Marquez",
+        "email": "sofia.marquez@example.com"
+      },
+      "billing_address": {
+        "name": "Sofia Marquez",
+        "address1": "114 Demo Street",
+        "city": "Denver",
+        "province_code": "CO",
+        "zip": "80202",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10030,
+          "sku": "TEA-SMP-5",
+          "title": "Tasting Sampler",
+          "variant_title": "5 x 10 g",
+          "quantity": 1,
+          "price": "16.00"
+        }
+      ]
+    },
+    {
+      "id": 7001004,
+      "name": "#1004",
+      "order_number": 1004,
+      "created_at": "2026-10-27T19:22:00-07:00",
+      "email": "ethan.brooks@example.com",
+      "currency": "USD",
+      "financial_status": "voided",
+      "cancelled_at": "2026-10-27T21:00:00-07:00",
+      "subtotal_price": "31.20",
+      "total_discounts": "0.00",
+      "total_tax": "2.50",
+      "total_price": "39.70",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9003,
+        "first_name": "Ethan",
+        "last_name": "Brooks",
+        "email": "ethan.brooks@example.com"
+      },
+      "billing_address": {
+        "name": "Ethan Brooks",
+        "address1": "121 Demo Street",
+        "city": "Madison",
+        "province_code": "WI",
+        "zip": "53703",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10040,
+          "sku": "TEA-CHA-100",
+          "title": "Spiced Chai Blend",
+          "variant_title": "100 g",
+          "quantity": 3,
+          "price": "10.40"
+        }
+      ]
+    },
+    {
+      "id": 7001005,
+      "name": "#1005",
+      "order_number": 1005,
+      "created_at": "2026-11-01T11:30:00-07:00",
+      "email": "priya.raman@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "40.50",
+      "total_discounts": "10.00",
+      "total_tax": "3.24",
+      "total_price": "43.74",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9004,
+        "first_name": "Priya",
+        "last_name": "Raman",
+        "email": "priya.raman@example.com"
+      },
+      "billing_address": {
+        "name": "Priya Raman",
+        "address1": "128 Demo Street",
+        "city": "Seattle",
+        "province_code": "WA",
+        "zip": "98101",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10050,
+          "sku": "TEA-HOJ-80",
+          "title": "Roasted Hojicha",
+          "variant_title": "80 g",
+          "quantity": 2,
+          "price": "11.00"
+        },
+        {
+          "id": 10051,
+          "sku": "TEA-SEN-50",
+          "title": "Morning Sencha",
+          "variant_title": "50 g",
+          "quantity": 1,
+          "price": "12.50"
+        },
+        {
+          "id": 10052,
+          "sku": "TEA-SMP-5",
+          "title": "Tasting Sampler",
+          "variant_title": "5 x 10 g",
+          "quantity": 1,
+          "price": "16.00"
+        }
+      ]
+    },
+    {
+      "id": 7001006,
+      "name": "#1006",
+      "order_number": 1006,
+      "created_at": "2026-11-03T16:48:00-07:00",
+      "email": "lucas.bennett@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "9.80",
+      "total_discounts": "0.00",
+      "total_tax": "0.78",
+      "total_price": "16.58",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9005,
+        "first_name": "Lucas",
+        "last_name": "Bennett",
+        "email": "lucas.bennett@example.com"
+      },
+      "billing_address": {
+        "name": "Lucas Bennett",
+        "address1": "135 Demo Street",
+        "city": "Boston",
+        "province_code": "MA",
+        "zip": "02108",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10060,
+          "sku": "TEA-EGR-100",
+          "title": "Harbor Earl Grey",
+          "variant_title": "100 g",
+          "quantity": 1,
+          "price": "9.80"
+        }
+      ]
+    },
+    {
+      "id": 7001007,
+      "name": "#1007",
+      "order_number": 1007,
+      "created_at": "2026-11-05T10:02:00-07:00",
+      "email": "hana.sato@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "64.60",
+      "total_discounts": "0.00",
+      "total_tax": "5.17",
+      "total_price": "69.77",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9006,
+        "first_name": "Hana",
+        "last_name": "Sato",
+        "email": "hana.sato@example.com"
+      },
+      "billing_address": {
+        "name": "Hana Sato",
+        "address1": "142 Demo Street",
+        "city": "San Jose",
+        "province_code": "CA",
+        "zip": "95113",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10070,
+          "sku": "TEA-OOL-50",
+          "title": "High Mountain Oolong",
+          "variant_title": "50 g",
+          "quantity": 2,
+          "price": "15.30"
+        },
+        {
+          "id": 10071,
+          "sku": "WARE-KTL-1",
+          "title": "Glass Kettle",
+          "variant_title": null,
+          "quantity": 1,
+          "price": "34.00"
+        }
+      ]
+    },
+    {
+      "id": 7001008,
+      "name": "#1008",
+      "order_number": 1008,
+      "created_at": "2026-11-06T13:15:00-07:00",
+      "email": "grace.whitfield@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "21.40",
+      "total_discounts": "0.00",
+      "total_tax": "1.71",
+      "total_price": "29.11",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9007,
+        "first_name": "Grace",
+        "last_name": "Whitfield",
+        "email": "grace.whitfield@example.com"
+      },
+      "billing_address": {
+        "name": "Grace Whitfield",
+        "address1": "149 Demo Street",
+        "city": "Raleigh",
+        "province_code": "NC",
+        "zip": "27601",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10080,
+          "sku": "TEA-CHA-100",
+          "title": "Spiced Chai Blend",
+          "variant_title": "100 g",
+          "quantity": 1,
+          "price": "10.40"
+        },
+        {
+          "id": 10081,
+          "sku": "TEA-HOJ-80",
+          "title": "Roasted Hojicha",
+          "variant_title": "80 g",
+          "quantity": 1,
+          "price": "11.00"
+        }
+      ]
+    },
+    {
+      "id": 7001009,
+      "name": "#1009",
+      "order_number": 1009,
+      "created_at": "2026-11-07T09:55:00-07:00",
+      "email": "omar.haddad@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "28.80",
+      "total_discounts": "3.20",
+      "total_tax": "2.30",
+      "total_price": "37.10",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9008,
+        "first_name": "Omar",
+        "last_name": "Haddad",
+        "email": "omar.haddad@example.com"
+      },
+      "billing_address": {
+        "name": "Omar Haddad",
+        "address1": "156 Demo Street",
+        "city": "Chicago",
+        "province_code": "IL",
+        "zip": "60601",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10090,
+          "sku": "TEA-SMP-5",
+          "title": "Tasting Sampler",
+          "variant_title": "5 x 10 g",
+          "quantity": 2,
+          "price": "16.00"
+        }
+      ]
+    },
+    {
+      "id": 7001010,
+      "name": "#1010",
+      "order_number": 1010,
+      "created_at": "2026-11-08T18:40:00-07:00",
+      "email": "chloe.nguyen@example.com",
+      "currency": "USD",
+      "financial_status": "pending",
+      "cancelled_at": null,
+      "subtotal_price": "32.70",
+      "total_discounts": "0.00",
+      "total_tax": "2.62",
+      "total_price": "41.32",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "6.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer": {
+        "id": 9009,
+        "first_name": "Chloe",
+        "last_name": "Nguyen",
+        "email": "chloe.nguyen@example.com"
+      },
+      "billing_address": {
+        "name": "Chloe Nguyen",
+        "address1": "163 Demo Street",
+        "city": "Phoenix",
+        "province_code": "AZ",
+        "zip": "85004",
+        "country": "United States"
+      },
+      "line_items": [
+        {
+          "id": 10100,
+          "sku": "TEA-SEN-50",
+          "title": "Morning Sencha",
+          "variant_title": "50 g",
+          "quantity": 1,
+          "price": "12.50"
+        },
+        {
+          "id": 10101,
+          "sku": "TEA-EGR-100",
+          "title": "Harbor Earl Grey",
+          "variant_title": "100 g",
+          "quantity": 1,
+          "price": "9.80"
+        },
+        {
+          "id": 10102,
+          "sku": "TEA-CHA-100",
+          "title": "Spiced Chai Blend",
+          "variant_title": "100 g",
+          "quantity": 1,
+          "price": "10.40"
+        }
+      ]
+    }
+  ]
+}
