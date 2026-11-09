@@ -11,6 +11,12 @@ A Google Apps Script for a Google Sheet that turns shop orders into paid invoice
 
 It ships with ten fictional orders built in, so you can try every step without a store or any keys.
 
+![Orders sheet with invoice numbers, due dates and Paid / Unpaid / Overdue / Cancelled statuses, and the monthly summary](media/orders.png)
+
+| The invoice PDF | The menu |
+|---|---|
+| ![Invoice PDF with line items, discount, shipping, tax and total](media/invoice.png) | ![The Order to Invoice menu and what makes it safe to run](media/menu.png) |
+
 ## Try it
 
 1. Create a Google Sheet, then **Extensions > Apps Script**.
